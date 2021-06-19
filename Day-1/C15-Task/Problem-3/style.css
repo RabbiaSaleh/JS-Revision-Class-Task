@@ -1,0 +1,35 @@
+body
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(215, 228, 102, 0.637);
+    align-items: center;
+    justify-content: center;
+}
+h1
+{
+    font-size: 3em;
+    font-family: monospace;
+}
+button
+{
+    padding: 10px 3em;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-family: 'Courier New';
+    border: none;
+    background-color: rgba(78, 129, 82, 0.548);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgb(23, 26, 36);
+    margin-bottom: 1em;
+}
+button:focus
+{
+    outline: none;
+}
+button:hover
+{
+    background-color: #222;
+    color:rgba(109, 76, 48, 0.801);
+}
